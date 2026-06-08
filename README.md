@@ -2,7 +2,7 @@
 
 Classificação automática de gênero musical a partir do áudio, usando **Redes Neurais
 Convolucionais (CNN)** sobre **espectrogramas Mel** da base **GTZAN**. Projeto acadêmico de
-IA (IFSC — ADS/ICD).
+IA (IFSC — ADS).
 
 O projeto compara uma **CNN baseline** treinada do zero com **transferência de aprendizado**
 (MobileNetV2 pré-treinada na ImageNet), e ainda compara duas **fontes de entrada**:
