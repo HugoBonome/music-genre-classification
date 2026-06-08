@@ -18,6 +18,9 @@ models/*
 entrega/
 CLAUDE.md
 .claude/
+# report-generation scripts embed the (private) report text
+build_report_docx.py
+build_report_pdf.py
 
 # OS
 .DS_Store
