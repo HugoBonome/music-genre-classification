@@ -1,0 +1,24 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Dataset (lives outside repo; never commit GTZAN audio/images)
+data/*
+!data/.gitkeep
+
+# Trained model weights (large; regenerate via notebooks)
+models/*
+!models/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Working/internal files — NOT to be committed
+entrega/
+CLAUDE.md
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db

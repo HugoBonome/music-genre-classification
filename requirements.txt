@@ -1,7 +1,12 @@
-tensorflow 
-librosa 
-matplotlib 
-numpy 
-scikit-learn 
-seaborn 
-jupyter 
+# Top-level dependencies (Python 3.13). For an exact reproduction of the
+# environment used to produce the results, install requirements-lock.txt instead.
+tensorflow==2.21.0
+librosa==0.11.0
+scikit-learn==1.9.0
+pandas==3.0.3
+numpy==2.4.6
+matplotlib==3.10.9
+seaborn==0.13.2
+pillow==12.2.0
+notebook==7.5.7
+jupyter
